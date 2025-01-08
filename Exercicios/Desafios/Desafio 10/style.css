@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@font-face {
+    font-family: pagina;
+    src: url(fontes/idroid.otf);
+}
+p{
+    text-indent: 4em;
+    text-align: justify;
+}
+h1,h2{
+    font-family: pagina;
+    color: #1A5C38;
+}
+h2{
+    background-image: linear-gradient(to right, rgba(130, 255, 130, 0.459),white);
+}
+body{
+    background-color: #84E1AD;
+}
+main{
+    background-color: white;
+    margin: auto;
+    padding: 20px ;
+    border-radius: 5px;
+}
+header{
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(to right, #1A5C38,#2FA765,#84E1AD);
+    margin: -30px -30px 0px -30px;
+    padding: 5px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.322);
+}
+#cabecalho{
+    font-family: 'Courier New', Courier, monospace;
+}
+header>p{
+    text-align: center;
+}
+header>h1{
+    color: white;
+}
+nav{
+    text-align: left;
+}
+nav>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+.imagem{
+    text-align: center;
+}
+h4{
+    background-color: #2FA765;
+    margin: 0px -19px 5px -19px;
+    padding: 5px;
+    color: white;
+}
+section{
+    background-color: #84e1ac49;
+    padding: 0px 20px 20px 20px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px black;
+    margin: 12px
+}
+footer>p{
+    text-align: center;
+    color: white;
+    background-color: #1A5C38;
+    margin: 12px 0px -8px 10px;
+    padding: 5px;
+    
+}
+.video{
+    background-color: #1A5C38;
+    text-align: center;
+    margin: auto;
+}
+ul{
+    list-style-type: square;
+    display: inline-block;
+}
+#lista2{
+    margin: 15px;
+    margin-left: 68px;
+}
