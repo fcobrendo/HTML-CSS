@@ -1,10 +1,15 @@
 @charset "UTF-8";
+@font-face {
+    font-family: titulo;
+    src: url(fontes/Wonderly.otf);
+}
 *{
     margin: 0px;
     padding: 0px;
 }
 :root{
-
+    --titulos:titulo;
+    --texto:texto;
 }
 html,body{
     min-height:100vh;
@@ -16,11 +21,14 @@ header{
     text-align: center;
 }
 header h1{
+    font-family: var(--titulos);
     padding-top: 30px;
     font-variant: small-caps;
+    font-size: 3em;
 
 }
 header h4{
+    font-family: var(--texto);
     padding-bottom: 30px;
     font-weight: 100;
 }
@@ -40,6 +48,9 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    
 }
 .normal{
     background-color: white;
