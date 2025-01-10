@@ -13,10 +13,10 @@
 }
 html,body{
     min-height:100vh;
-    background-color:darkgray
+    background-color:rgb(0, 0, 0)
 }
 header{
-    background-color: black;
+    background-image: linear-gradient(to right, rgb(0, 0, 0),rgb(8, 8, 63),rgb(0, 0, 0));
     color: white;
     text-align: center;
 }
@@ -25,12 +25,14 @@ header h1{
     padding-top: 30px;
     font-variant: small-caps;
     font-size: 3em;
+    text-shadow: 1px 1px 2px black;
 
 }
 header h4{
     font-family: var(--texto);
     padding-bottom: 30px;
     font-weight: 100;
+    text-shadow: 1px 1px 2px black;
 }
 a{
     color: white;
@@ -44,26 +46,54 @@ a:hover{
     text-decoration: underline;
 }
 section{
+    max-width: 1000px;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 2em;
+    margin: auto;
+    text-align: center;
     
 }
+section p{
+    padding-bottom: 2em;
+    margin: auto;
+}
+#logo{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px 10px;
+    
+    
+}
+#img01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+#img02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+
 .normal{
-    background-color: white;
+    background-color: rgb(241, 231, 231);
+    background-image: url(https://img.freepik.com/fotos-gratis/cartao-branco-amassado_95678-119.jpg?semt=ais_hybrid);
     color: black;
 }
 .imagem{
     background-color: rgb(146, 132, 132);
-    background-image: url();
     color: white;
+    text-shadow: 0.5px 0.5px 0.5px black;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.589);
+    background-attachment: fixed;
 }
 .imagem>p {
-    width: 400px;
-    background-color: rgba(0, 0, 0, 0.363);
+    max-width: 400px;
+    background-color: rgba(0, 0, 0, 0.308);
 }
 footer{
     background-color: black;
