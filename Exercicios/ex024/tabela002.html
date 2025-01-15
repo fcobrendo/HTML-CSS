@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela Responsiva</title>
+    <style>
+        table{
+            border: 3px solid black;
+            width: 500px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            border-collapse: collapse;
+        }
+        td,tr{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        th{
+            border: 1px solid black;
+            padding: 5px;
+
+        }
+        caption{
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px;
+        }
+        tr:nth-child(2n){
+            background-color: gray;
+        }
+        *{
+            text-align: center;
+            margin: auto;
+            
+        }
+        p{
+            text-align: justify;
+            padding: 20px;
+            text-indent: 1.5em;
+        }
+        #conteiner{
+            overflow: auto;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi incidunt delectus ab ea aut provident? Laborum, fugit nesciunt sint error, aperiam culpa deserunt corrupti labore ad cupiditate laboriosam maxime atque?</p>
+    <table>
+        <caption>Tabelas Responsivas</caption>
+        <div id="conteiner">
+            <thead>
+                <th>Produtos</th>
+                <th>jan</th>
+                <th>fev</th>
+                <th>mar</th>
+                <th>abr</th>
+                <th>mai</th>
+                <th>jun</th>
+                <th>jul</th>
+                <th>ago</th>
+                <th>set</th>
+                <th>out</th>
+                <th>nov</th>
+                <th>dez</th>
+            </thead>
+            <tbody>
+            
+            </tbody>
+        </div>
+    </table>
+    
+</body>
+</html>
