@@ -1,0 +1,12 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#telefone{
+    background: no-repeat;
+    position: relative;
+    background-image: url(../../../../../Projeto-de-redes-sociais/imagens/frame-iphone.png);
+    height: 100vh;
+    width: 100vw;
+}
