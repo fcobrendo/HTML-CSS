@@ -4,9 +4,23 @@
     padding: 0px;
 }
 #telefone{
-    background: no-repeat;
+    background:url(../../../../../Projeto-de-redes-sociais/imagens/frame-iphone.png) no-repeat;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 631px;
+    width: 315px;
+}
+#tela_home{
+    
     position: relative;
-    background-image: url(../../../../../Projeto-de-redes-sociais/imagens/frame-iphone.png);
-    height: 100vh;
-    width: 100vw;
+    width: 267px;
+    height: 472px;
+    top: 80px;
+    left: 22px;
+}
+body{
+    background-size: cover;
+    background: url(../../../../../Projeto-de-redes-sociais/imagens/fundo-madeira.jpg) no-repeat top center;
 }
