@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="icidade">Cidade</label>
+                <select required name="cidade" id="icidade">
+                    <option value="escolha" selected>--Escolha--</option>
+                    <optgroup label="Regiao Norte">
+                        <option value="sobral">Sobral</option>
+                        <option value="forquilha">Forquilha</option>
+                        <option value="massape">Massapê</option>
+                    </optgroup>
+                </select>
+                <p>
+                    <label for="iprofissão">Profissão</label>
+                    <input required type="text" name="profissão" id="iprofissão" list="opcoes">
+                    <datalist id="opcoes">
+                        <option value="estudante"></option>
+                        <option value="informal"></option>
+                        <option value="ctl"></option>
+                        <option value="servidor_publico"></option>
+                    </datalist>
+                </p>
+                <p>
+                    <label for="imensagem">Mensagem</label><br>
+                    <textarea name="mensagem" id="imensagem" cols="50" rows="10"></textarea>
+                    
+                </p>
+            </fieldset>
+        </p>
+        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
