@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkbox e RadioButton</title>
+    <style>
+        fieldset input {
+            margin: 10px;
+        }
+        fieldset legend{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        #escolaridade{
+            margin: 10px 0px 10px 0px;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Botões de Radio e Checkbox</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend><strong>Esportes Favoritos</strong></legend>
+           <label for="ifutebol"><input type="checkbox" name="futebol" id="ifutebol">Futebol</label> <br>
+           <label for="ivolei"><input type="checkbox" name="volei" id="ivolei">Volei </label><br>
+           <label for="ihandbol"><input type="checkbox" name="handbol" id="ihandbol">Handbol</label> <br>
+           <label for="ifutebolamericano"><input type="checkbox" name="futebolamericano" id="ifutebolamericano">Futebol</label> Americano <br>
+           <label for="ibasquete"><input type="checkbox" name="basquete" id="ibasquete">Basquete</label>
+        </fieldset>
+        <fieldset id="escolaridade">
+            <legend>Escolaridade</legend>
+            <label for="ifundamental"><input type="radio" name="escolaridade" id="ifundamental">Fundamental</label> <br>
+            <label for="imedio"><input type="radio" name="escolaridade" id="imedio">Medio</label> <br>
+            <label for="isuperior"><input type="radio" name="escolaridade" id="isuperior">Superior</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
