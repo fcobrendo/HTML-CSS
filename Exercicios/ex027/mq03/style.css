@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+#imagem{
+    background: url(../mq002/imagens/cev-portrait.jpg);
+}
+@media screen and(orientation:landscape) {
+    #imagem{
+        background: url(../mq002/imagens/cev-landscape.jpg);
+    }
+    
+}
