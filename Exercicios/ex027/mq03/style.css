@@ -11,5 +11,8 @@
         width: 100vw;
         background: url(../mq002/imagens/cev-landscape.jpg);
     }
+    h1{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
     
 }
