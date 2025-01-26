@@ -1,10 +1,14 @@
 @charset "UTF-8";
 
 #imagem{
-    background: url(../mq002/imagens/cev-portrait.jpg);
+   width: 350px;
+   height: 100vh;
+   background: no-repeat  left center url(../mq002/imagens/cev-portrait.jpg);
+   background-size: contain;
 }
 @media screen and(orientation:landscape) {
     #imagem{
+        width: 100vw;
         background: url(../mq002/imagens/cev-landscape.jpg);
     }
     
