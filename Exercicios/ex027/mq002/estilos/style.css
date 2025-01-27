@@ -17,7 +17,6 @@ h1{
     color: white;
     text-shadow: 2px 2px 0px #101a66;
 }
-
 /*Orientação Retrato*/
 @media screen and (orientation:portrait) {
     body{
