@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 *{
     margin:0px;
     padding: 0px;
@@ -33,18 +34,4 @@ h1{
 }
 #tablet,#impressora,#desktop,#tv{
     display: none;
-}
-@media screen and (max-width:800px) {
-    main{
-        background-color: red;
-    }
-    
-}
-@media screen and (max-width: 400px){
-
-
-}
-
-@media print{
-
 }

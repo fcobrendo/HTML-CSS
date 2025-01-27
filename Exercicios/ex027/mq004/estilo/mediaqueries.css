@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/*--------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------*/
+/*pequenas telas*/
+
+/*Tablet*/
+@media screen and (min-width: 780px) and (max-width:992px){
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    #tablet{
+        display: block;
+        margin: auto;
+    }
+    #phone{
+        display: none;
+    }
+}
+/*Desktop*/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    #desktop{
+        display: block;
+        margin: auto;
+    }
+    #phone,#tablet{
+        display: none;
+    }
+}
+/*Grandes Telas*/
+@media screen and (min-width:1200px){
+    body{
+        background-image: url(../imagens/back-tv.jpg);
+    }
+    #tv{
+        display: block;
+        margin: auto;
+    }
+    #desktop,#phone,#tablet{
+        display: none;
+    }
+}
+/*Impressão*/
+@media print{
+    body{
+        background: lightgray;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    h1{
+        color: black;
+        text-shadow: none;
+    }
+    #tablet,#impressora,#desktop,#tv,#phone{
+        display: none;
+    }
+}
