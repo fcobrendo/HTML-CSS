@@ -1,1 +1,48 @@
-!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body,html{
+            
+            background-color: blue;
+        }
+       
+        
+        .container{
+            display: flex;
+            background-color: white;
+            flex-flow:wrap;
+        }
+        .container div{
+           text-align: center;
+           border: 1px solid black;
+           flex-basis: 300px;
+           background-color: yellow;
+           flex-grow: 1;
+           flex-shrink: 1;
+            
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="container">
+            <div><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus ratione assumenda, doloremque id quasi laborum, reiciendis nostrum non eos illo molestiae neque adipisci explicabo nam saepe numquam, eius fugit eaque.</p></div>
+            <div><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea quod, nihil, illo adipisci minima, corporis dolorum repudiandae sapiente non animi quibusdam inventore blanditiis tempore! Fuga magnam amet possimus repellat voluptate?
+            Voluptas nemo nisi illo voluptate repellat impedit ratione, iure at mollitia debitis architecto expedita nobis quis distinctio deleniti? Officiis, esse? Quos amet quidem alias odio exercitationem fugiat dolore sunt ipsum.</p></div>
+            <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi accusantium incidunt natus dolore exercitationem temporibus, laboriosam qui ipsum aut harum alias numquam dicta nulla quod, cupiditate quis praesentium nostrum rerum.
+            Alias, repudiandae ut incidunt, aliquid quibusdam est recusandae ab temporibus cum fugit impedit. Facilis itaque optio unde, consequatur eum qui veritatis sequi enim, minima dolore assumenda, possimus iure vel error!
+            Molestias explicabo ipsam possimus inventore libero cum consectetur asperiores error hic? Maxime voluptas suscipit fuga, harum cumque quos consectetur deleniti repellat sit labore cum sint tenetur modi consequuntur amet veniam.</p></div>
+        </div>
+
+    
+    
+</body>
+</html>
